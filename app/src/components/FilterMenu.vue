@@ -156,6 +156,9 @@ export default {
         return l;
       });
 
+      console.log(this.colorStats);
+      console.log(this.labelStats);
+
       // cache
       if (!this.preCalculated.status) {
         this.preCalculated.colorStats = this.colorStats;
